@@ -33,7 +33,7 @@ p {
 body {
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Hauteur de l'écran */
+    min-height: 100vh; /* Hauteur écran */
     background-color: #1c1c1c;
 }
 
@@ -90,11 +90,11 @@ nav {
 }
 
 .lorem {
-    color: #4c4c4c; /* Couleur pour "Lorem ipsum dolor" */
+    color: #4c4c4c; 
 }
 
 .sit {
-    color: #eba004; /* Couleur pour "sit amet" */
+    color: #eba004; 
 }
 
 /* Main */
@@ -103,7 +103,7 @@ nav {
 
 .container {
     background-color:#f3f3f3;
-    width: 60%; /* Vous pouvez ajuster cette largeur */
+    width: 60%; /*  Largeur */
     padding: 0;
     margin: 0 auto 0 auto; /* Centre horizontalement */
 }
@@ -119,13 +119,13 @@ nav {
 .products, .products1 {
     display: flex;
     justify-content: space-between; /* Espace égal entre les cartes */
-    margin: 0 auto; /* Centrer le contenu */
+    margin: 0 auto; /* Centre le contenu */
     padding: 50px 0; /* Ajoute de l'espace autour des sections, mais pas sur les côtés */
-    width: 80%; /* Ajuste selon la largeur souhaitée de tes sections */
+    width: 80%; 
 }
 
 .cards, .cards2 {
-    position: relative; /* Pour que la bannière puisse se positionner par rapport à la carte */
+    position: relative; /* La bannière se positionner par rapport à la carte */
     width: 400px; /* Taille de la carte */
     margin: 0 10px; /* Espace entre les cartes */
     padding: 20px; /* Ajoute de l'espace à l'intérieur des cartes */
@@ -323,7 +323,9 @@ footer p {
 
 /* Bouton "goTop" */
 a.goTop {
-    display: block;
+    display: flex; /* Change à flex pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
     position: fixed;
     bottom: 1rem;
     right: 1.5rem;
